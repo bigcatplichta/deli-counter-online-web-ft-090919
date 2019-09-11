@@ -18,4 +18,7 @@ def take_a_number(list, name)
   puts "Welcome, #{name}. You are number #{list.index(name) + 1} in line."
 end
 
-def now_serving
+def now_serving(list)
+  puts "Currently serving #{list.first}."
+  line.shift
+end
