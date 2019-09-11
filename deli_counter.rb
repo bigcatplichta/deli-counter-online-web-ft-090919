@@ -17,5 +17,5 @@ def take_a_number(list, name)
   list.push(name)
   
   puts "Welcome, #{name}. You are number #{list.index(name) + 1} in line."
-  binding.pry
+  # binding.pry
 end
